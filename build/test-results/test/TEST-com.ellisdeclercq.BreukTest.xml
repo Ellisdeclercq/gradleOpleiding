@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ellisdeclercq.BreukTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-06-19T10:34:10" hostname="iMac-82.local" time="0.003">
+  <properties/>
+  <testcase name="deNoemerMagNietNulZijn" classname="com.ellisdeclercq.BreukTest" time="0.002"/>
+  <testcase name="breukAftrekken" classname="com.ellisdeclercq.BreukTest" time="0.0"/>
+  <testcase name="breukVermenigvuldigen" classname="com.ellisdeclercq.BreukTest" time="0.0"/>
+  <testcase name="breukOptellen2" classname="com.ellisdeclercq.BreukTest" time="0.0"/>
+  <testcase name="breukOmkeren" classname="com.ellisdeclercq.BreukTest" time="0.0"/>
+  <testcase name="breukOptellen" classname="com.ellisdeclercq.BreukTest" time="0.0"/>
+  <testcase name="breukAftrekken2" classname="com.ellisdeclercq.BreukTest" time="0.0"/>
+  <testcase name="breukDelen" classname="com.ellisdeclercq.BreukTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
