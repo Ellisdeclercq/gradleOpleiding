@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.ellisdeclercq.Testjes1Test" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-06-19T10:34:10" hostname="iMac-82.local" time="0.001">
+<testsuite name="com.ellisdeclercq.Testjes1Test" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-06-19T12:36:37" hostname="iMac-82.local" time="0.001">
   <properties/>
-  <testcase name="oneIsNotaPrime" classname="com.ellisdeclercq.Testjes1Test" time="0.0"/>
+  <testcase name="oneIsNotaPrime" classname="com.ellisdeclercq.Testjes1Test" time="0.001"/>
   <testcase name="primeNumbersReturnsFalseIfNumberisNotPrime" classname="com.ellisdeclercq.Testjes1Test" time="0.0"/>
   <testcase name="negativeIsNotaPrime" classname="com.ellisdeclercq.Testjes1Test" time="0.0"/>
   <testcase name="primeNumbersReturnsTrueIfNumberIsPrime" classname="com.ellisdeclercq.Testjes1Test" time="0.0"/>

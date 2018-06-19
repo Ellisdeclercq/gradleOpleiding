@@ -1,5 +1,14 @@
 apply plugin: 'java'
 
+apply plugin: 'application'
+
+mainClassName = "com.ellisdeclercq.mei.FizzBuzz"
+run.args = ["Ellis"]
+
+run{ // bij een scanner gebruiken
+    standardInput = System.in
+}
+
 repositories{
     mavenCentral()
 }

@@ -3,6 +3,12 @@ package com.ellisdeclercq.mei;
 public class FizzBuzz {
 
     public static void main(String[] args) {
+
+        if(args.length > 0){
+            System.out.println("welcome " + args[0]);
+        }
+
+
         int a = 3;
         int b = 5;
 
