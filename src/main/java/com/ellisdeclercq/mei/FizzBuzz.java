@@ -7,7 +7,7 @@ public class FizzBuzz {
         if(args.length > 0){
             System.out.println("welcome " + args[0]);
         }
-
+        System.out.println("je bent nu in het programma FizzBuzz");
 
         int a = 3;
         int b = 5;
