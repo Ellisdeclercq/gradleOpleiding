@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forms</title>
+</head>
+<body>
+<form method="/">
+    <fieldset>
+        <legend> input velden</legend>
+        <label for="input">Input</label>
+    <input type="text" name="inputveld" id="input" value="some text"
+           minlenght="5" maxlength="20">
+        <input type="color" name="color" id="color" value="wat is je favoriete kleur?">
+        <label for="password">Passwoord ingeven</label>
+        <input type="password" name="password" id="password" minlength="5" value="">
+        <input type="email" name="email" id="email" value="geef je email in">
+        <input type="search" name="search" id="search" value="zoek hier">
+        <input type="range" name="range" id="range" value="geef hier de range">
+
+
+    <br/>
+    <textarea rows="5" cols="20">hier staat iets</textarea>
+    <br/>
+
+   </fieldset>
+
+
+    <label for="select">select : </label>
+    <select name="select" id="select" multiple>
+        <option value="op1"> option1</option>
+        <option value="op2"> option2</option>
+    </select>
+    <input list="talen" id="talenlijst" name="talenlijst">
+    <datalist id="talen">
+    <option value="nederlands" />
+        <option value="frans"/>
+
+    </datalist>
+    <br/>
+
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+
+
+    <!-- color | url | password | email | search | range | -->
+</form>
+
+</body>
+</html>

@@ -13,6 +13,24 @@ repositories{
     mavenCentral()
 }
 
+
+
 dependencies{
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.apache.commons', name: 'commons-math3', version: '3.6.1'
 }
+
+
+
+task boilwater{
+    doLast {
+        println("Boiling water")
+    }
+}
+task serveTea (dependsOn: boilwater) {
+
+    doLast {
+        println("Hello there! I will serve you tea now")
+    }
+}
+
